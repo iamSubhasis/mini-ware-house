@@ -1,3 +1,5 @@
+sql/raw_retail_sales.sql
+*.sql
 *.log
 *.tmp
 .env
