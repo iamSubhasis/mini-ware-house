@@ -7,6 +7,9 @@ HOST="localhost"
 
 echo "Starting Mini Data Warehouse Build..."
 
+echo "0) Creating raw source table..."
+psql -U $DB_USER -d $DB_NAME -h $HOST -f sql/00_create_raw_table.sql
+
 echo "1) Creating schema..."
 psql -U $DB_USER -d $DB_NAME -h $HOST -f sql/01_create_schema.sql
 
