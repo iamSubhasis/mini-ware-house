@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ===== CONFIG =====
-DB_NAME="etl_lab"
+DB_NAME=${1:-etl_lab}
 DB_USER="etl_user"
 HOST="localhost"
 
