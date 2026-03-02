@@ -12,7 +12,7 @@ supplier_name text not null unique
 );
 
 create table if not exists dw.dim_product(
-product key serial primary key,
+product_key serial primary key,
 item_code text not null unique,
 item_description text,
 item_type text not null

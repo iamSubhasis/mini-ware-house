@@ -1,5 +1,6 @@
+# Ignore large raw dumps
 sql/raw_retail_sales.sql
-*.sql
+
 *.log
 *.tmp
 .env
